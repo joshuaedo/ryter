@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>STT - Ryter</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="../css/tutorial.css">
+
+  <script src="../kit.fontawesome.com/88e9ff5c6d.js" crossorigin="anonymous"></script>
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="../favicons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicons/favicon-16x16.png" />
+    <link rel="shortcut icon" href="../favicons/favicon.ico" type="image/x-icon">
+    <link rel="manifest" href="../favicons/site.webmanifest" />
+
+
+  <style>
+    html {
+      font-size: 10px;
+    }
+
+    body {
+   
+      font-family: 'helvetica neue';
+      font-weight: 200;
+      font-size: 20px;
+
+      background-image: url(https://images.unsplash.com/photo-1533090368676-1fd25485db88?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fHBsYW50cyUyMGFuZCUyMGJvb2tzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1400&q=60);
+
+      width: 100%;
+      height: 100vh;
+      margin: 0;
+    }
+
+
+    .words {
+      max-width: 500px;
+      margin: 50px auto;
+      background: white;
+      border-radius: 5px;
+      box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.1);
+      padding: 1rem 2rem 1rem 5rem;
+      background: webkit-gradient(linear, 0 0, 0 100%, from(#d9eaf3), color-stop(4%, #fff)) 0 4px;
+      background-size: 100% 3rem;
+      position: relative;
+      line-height: 3rem;
+    }
+
+    p {
+      margin: 0 0 3rem;
+    }
+
+    .words:before {
+      content: '';
+      position: absolute;
+      width: 4px;
+      top: 0;
+      left: 30px;
+      bottom: 0;
+      border: 1px solid;
+      border-color: transparent #efe4e4;
+
+      
+    }
+
+    @media screen and (max-width: 582px) {
+     .words{margin: 20px 10px 20px;
+    } 
+}
+
+.img-container {
+  color: #fff;
+  text-align: center;
+  margin: 70px auto 20px;
+}
+
+
+  </style>
+
+</head>
+
+
+
+<body>
+
+  <!-- Navbar -->
+  <input class="menu-icon" type="checkbox" id="menu-icon" name="menu-icon" />
+  <label for="menu-icon"></label>
+  <nav class="nav">
+    <ul class="pt-5">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="notes.html">Notes</a></li>
+      <li><a href="to-do.html">To-do List</a></li>
+      <li><a href="speech-to-text.html">Speech-to-text</a></li>
+      <li><a href="pomodoro-timer.html">Pomodoro Timer</a></li>
+      <li><a href="fantasia.html">Fantasia</a></li>
+    </ul>
+  </nav>
+
+  <div class="img-container">
+    <i class="fa-solid fa-microphone fa-2xl"></i>
+  </div>
+
+  <div class="words" contenteditable="true">
+  </div>
+
+  <script src="../js/tutorial.js"></script>
+</body>
+
+</html>

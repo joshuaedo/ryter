@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>To-do - Ryter</title>
+    <link rel="stylesheet" href="../css/to-do.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Iconscout Link For Icons -->
+    <link
+      rel="stylesheet"
+      href="../unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../favicons/favicon-16x16.png"
+    />
+    <link
+      rel="shortcut icon"
+      href="../favicons/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="manifest" href="../favicons/site.webmanifest" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <input class="menu-icon" type="checkbox" id="menu-icon" name="menu-icon" />
+    <label for="menu-icon"></label>
+    <nav class="nav">
+      <ul class="pt-5">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="notes.html">Notes</a></li>
+        <li><a href="to-do.html">To-do List</a></li>
+        <li><a href="speech-to-text.html">Speech-to-text</a></li>
+        <li><a href="pomodoro-timer.html">Pomodoro Timer</a></li>
+        <li><a href="fantasia.html">Fantasia</a></li>
+      </ul>
+    </nav>
+
+    <div class="wrapper">
+      <div class="task-input">
+        <img src="../images/hamburger.png" alt="icon" />
+        <input type="text" placeholder="Add a new task" />
+      </div>
+      <div class="controls">
+        <div class="filters">
+          <span class="active" id="all">All</span>
+          <span id="pending">Pending</span>
+          <span id="completed">Completed</span>
+        </div>
+        <button class="clear-btn">Clear All</button>
+      </div>
+      <ul class="task-box"></ul>
+    </div>
+
+    <script src="../js/to-do.js"></script>
+  </body>
+</html>
