@@ -14,7 +14,7 @@ Pretty straightforward to use:
 Similarly easy to use:
 1. Type in your task
 1. Hit return, your task will appear in both "All" and "Pending" filters
-1. Once your done, click on your task and it'll be marked as "Completed"
+1. Once you're done, click on your task and it'll be marked as "Completed"
 ### Speech-To-Text (STT)
 + Just as the name implies, it converts your speech to text. 
 + It might ask for permission to use your microphone, click "Allow" and start talking.
