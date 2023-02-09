@@ -376,9 +376,6 @@ h1 {
   .nav {
     right: 30px;
   }
-  h1 {
-    font-size: 5vh;
-  }
   .nav ul li a {
     font-size: 5vh;
     line-height: 1.6;
@@ -386,9 +383,6 @@ h1 {
 }
 
 @media screen and (max-width: 660px) {
-  h1 {
-    font-size: 4vh;
-  }
   .nav ul li a {
     font-size: 4vh;
     line-height: 1.6;
