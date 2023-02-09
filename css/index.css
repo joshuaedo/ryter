@@ -394,7 +394,7 @@ background-position: center;
     line-height: 1.6;
   }
   .area{
-    background-size: cover;
+    background-size: contain;
   }
 }
 
