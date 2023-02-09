@@ -376,6 +376,9 @@ h1 {
   .nav {
     right: 30px;
   }
+  h1 {
+    font-size: 5rem;
+  }
   .nav ul li a {
     font-size: 5vh;
     line-height: 1.6;
