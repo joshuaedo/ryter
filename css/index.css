@@ -394,7 +394,7 @@ background-position: center;
     line-height: 1.6;
   }
   .area{
-    background-image: url(https://plus.unsplash.com/premium_photo-1668780538503-142b057ab8e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzF8fHBsYW50cyUyMGFuZCUyMGJvb2tzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1400&q=60);
+    background-size: cover;
   }
 }
 
