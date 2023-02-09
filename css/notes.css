@@ -8,9 +8,12 @@
 body {
   background-image: url(https://images.unsplash.com/photo-1611079830589-b8d102f4ee15?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MTAwfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=1400&q=60);
   background-repeat: no-repeat;
-  background-position: center;
   width: 100%;
   height: 100vh;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
 }
 
 /*  */
@@ -55,7 +58,7 @@ header,
   font-size: 40px;
   border-radius: 50%;
   justify-content: center;
-  border: 2px dashed #000000;;
+  border: 2px dashed #000000;
 }
 .add-box p {
   color: #000000;
@@ -214,7 +217,7 @@ form .row label {
   font-size: 18px;
   display: block;
   margin-bottom: 6px;
- color: #000000;
+  color: #000000;
 }
 form :where(input, textarea) {
   height: 50px;
@@ -527,4 +530,3 @@ h1 {
     line-height: 1.6;
   }
 }
-

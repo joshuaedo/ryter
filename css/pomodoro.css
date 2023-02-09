@@ -12,9 +12,12 @@
 body {
   color: #131313;
   font-family: "Montserrat", sans-serif;
-background-image: url(https://images.unsplash.com/photo-1641158445179-21600187a19c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTE5fHxwbGFudHMlMjBhbmQlMjBib29rc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1400&q=60);
-background-size: cover;
-
+  background-image: url(https://images.unsplash.com/photo-1641158445179-21600187a19c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTE5fHxwbGFudHMlMjBhbmQlMjBib29rc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1400&q=60);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
   height: 100vh;
 }
 h1 {
@@ -23,7 +26,6 @@ h1 {
   font-size: 28px;
   text-align: center;
 }
-
 
 /* Navbar */
 
@@ -276,17 +278,7 @@ h1 {
   }
 }
 
-
-
-
-
-
-
-
-
 /* Body */
-
-
 
 input {
   transition: 0.5s ease-in-out;
@@ -338,12 +330,11 @@ form {
 }
 
 form button {
-  background:  #006400;
+  background: #006400;
   width: 90%;
   margin: 20px 15px;
   color: white;
 }
-
 
 .break {
   background: #006400;
@@ -406,7 +397,6 @@ footer {
 }
 
 @keyframes pulse {
-
   0%,
   100% {
     transform: rotate(-90deg) scale(1);

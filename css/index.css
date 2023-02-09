@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&amp;display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap");
 
 * {
   margin: 0px;
   padding: 0px;
 }
 h1 {
-  font-family: 'Mrs Saint Delafield', cursive;
+  font-family: "Mrs Saint Delafield", cursive;
   font-weight: 500;
   font-size: 6rem;
   line-height: 1;
@@ -23,12 +23,13 @@ h1 {
   top: 40vh;
 }
 
-
 .area {
- background-image: url(https://images.unsplash.com/photo-1611079830522-dc0c6e5f85ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fG5vdGVwYWQlMjBwYWdlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1400&q=60);
- background-repeat: no-repeat;
-background-position: center;
-/* background-size: contain; */
+  background-image: url(https://images.unsplash.com/photo-1611079830522-dc0c6e5f85ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fG5vdGVwYWQlMjBwYWdlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1400&q=60);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
   width: 100%;
   height: 100vh;
 }
@@ -384,7 +385,6 @@ background-position: center;
   }
 }
 
-
 @media screen and (max-width: 660px) {
   h1 {
     font-size: 4vh;
@@ -393,8 +393,4 @@ background-position: center;
     font-size: 4vh;
     line-height: 1.6;
   }
-  .area{
-    background-size: contain;
-  }
 }
-
